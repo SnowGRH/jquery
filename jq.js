@@ -16,6 +16,7 @@ $(function () {
     const TABEL = $("table");
     let kiíras = osszeallit();
     TABEL.append(kiíras);
+    console.log(kiíras);
 })
 
 function osszeallit() {
